@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		177D0E9F45FE4A7D00CACAAB /* libPods-MobimeoTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 567090594CDF5F4A2D7C4D03 /* libPods-MobimeoTask.a */; };
 		76CD9A1C2850F77000442A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1B2850F77000442A2F /* AppDelegate.swift */; };
 		76CD9A1E2850F77000442A2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1D2850F77000442A2F /* SceneDelegate.swift */; };
-		76CD9A202850F77000442A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1F2850F77000442A2F /* ViewController.swift */; };
+		76CD9A202850F77000442A2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1F2850F77000442A2F /* MainViewController.swift */; };
 		76CD9A232850F77000442A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A212850F77000442A2F /* Main.storyboard */; };
 		76CD9A252850F77100442A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A242850F77100442A2F /* Assets.xcassets */; };
 		76CD9A282850F77100442A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A262850F77100442A2F /* LaunchScreen.storyboard */; };
 		76CD9A332850F77100442A2F /* MobimeoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A322850F77100442A2F /* MobimeoTaskTests.swift */; };
 		76CD9A3D2850F77100442A2F /* MobimeoTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A3C2850F77100442A2F /* MobimeoTaskUITests.swift */; };
 		76CD9A3F2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A3E2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift */; };
+		76CD9A4C2850FA4A00442A2F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A4B2850FA4A00442A2F /* MainViewModel.swift */; };
+		76CD9A4F2850FC2F00442A2F /* GifInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A4E2850FC2F00442A2F /* GifInfo.swift */; };
+		76CD9A522850FCC500442A2F /* GifCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A512850FCC500442A2F /* GifCollectionViewCell.xib */; };
+		76CD9A542850FCD600442A2F /* GifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A532850FCD600442A2F /* GifCollectionViewCell.swift */; };
+		76CD9A592851041E00442A2F /* GiphyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A582851041E00442A2F /* GiphyAPI.swift */; };
+		76CD9A5B2851050C00442A2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A5A2851050C00442A2F /* Constants.swift */; };
+		76CD9A5D2851139700442A2F /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A5C2851139700442A2F /* UINavigationControllerExtension.swift */; };
+		76CD9A62285119A000442A2F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A61285119A000442A2F /* DetailsViewController.swift */; };
+		76CD9A6428511FC600442A2F /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A6328511FC600442A2F /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		567090594CDF5F4A2D7C4D03 /* libPods-MobimeoTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobimeoTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D80E8E7B22FA4C0B0898FE /* Pods-MobimeoTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobimeoTask.debug.xcconfig"; path = "Target Support Files/Pods-MobimeoTask/Pods-MobimeoTask.debug.xcconfig"; sourceTree = "<group>"; };
+		754D713940A892ED417AFB7A /* Pods-MobimeoTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobimeoTask.release.xcconfig"; path = "Target Support Files/Pods-MobimeoTask/Pods-MobimeoTask.release.xcconfig"; sourceTree = "<group>"; };
 		76CD9A182850F77000442A2F /* MobimeoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobimeoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CD9A1B2850F77000442A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76CD9A1D2850F77000442A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76CD9A1F2850F77000442A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76CD9A1F2850F77000442A2F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		76CD9A222850F77000442A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76CD9A242850F77100442A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76CD9A272850F77100442A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		76CD9A382850F77100442A2F /* MobimeoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobimeoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CD9A3C2850F77100442A2F /* MobimeoTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobimeoTaskUITests.swift; sourceTree = "<group>"; };
 		76CD9A3E2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobimeoTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76CD9A4B2850FA4A00442A2F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		76CD9A4E2850FC2F00442A2F /* GifInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifInfo.swift; sourceTree = "<group>"; };
+		76CD9A512850FCC500442A2F /* GifCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GifCollectionViewCell.xib; sourceTree = "<group>"; };
+		76CD9A532850FCD600442A2F /* GifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionViewCell.swift; sourceTree = "<group>"; };
+		76CD9A582851041E00442A2F /* GiphyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAPI.swift; sourceTree = "<group>"; };
+		76CD9A5A2851050C00442A2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		76CD9A5C2851139700442A2F /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		76CD9A61285119A000442A2F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		76CD9A6328511FC600442A2F /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177D0E9F45FE4A7D00CACAAB /* libPods-MobimeoTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505EF8F9FCC09757F2D11F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D80E8E7B22FA4C0B0898FE /* Pods-MobimeoTask.debug.xcconfig */,
+				754D713940A892ED417AFB7A /* Pods-MobimeoTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		76CD9A0F2850F77000442A2F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				76CD9A312850F77100442A2F /* MobimeoTaskTests */,
 				76CD9A3B2850F77100442A2F /* MobimeoTaskUITests */,
 				76CD9A192850F77000442A2F /* Products */,
+				505EF8F9FCC09757F2D11F96 /* Pods */,
+				9348667BFDED40B4DC5AE15B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +135,11 @@
 			children = (
 				76CD9A1B2850F77000442A2F /* AppDelegate.swift */,
 				76CD9A1D2850F77000442A2F /* SceneDelegate.swift */,
-				76CD9A1F2850F77000442A2F /* ViewController.swift */,
 				76CD9A212850F77000442A2F /* Main.storyboard */,
+				76CD9A502850FC9000442A2F /* MainViewController */,
+				76CD9A5E2851197300442A2F /* DetailsViewController */,
+				76CD9A4D2850FC1400442A2F /* Util */,
+				76CD9A572851040300442A2F /* Network */,
 				76CD9A242850F77100442A2F /* Assets.xcassets */,
 				76CD9A262850F77100442A2F /* LaunchScreen.storyboard */,
 				76CD9A292850F77100442A2F /* Info.plist */,
@@ -127,6 +164,60 @@
 			path = MobimeoTaskUITests;
 			sourceTree = "<group>";
 		};
+		76CD9A4D2850FC1400442A2F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A4E2850FC2F00442A2F /* GifInfo.swift */,
+				76CD9A5A2851050C00442A2F /* Constants.swift */,
+				76CD9A5C2851139700442A2F /* UINavigationControllerExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		76CD9A502850FC9000442A2F /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A1F2850F77000442A2F /* MainViewController.swift */,
+				76CD9A4B2850FA4A00442A2F /* MainViewModel.swift */,
+				76CD9A552850FCDC00442A2F /* MainCollectionViewCell */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		76CD9A552850FCDC00442A2F /* MainCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A512850FCC500442A2F /* GifCollectionViewCell.xib */,
+				76CD9A532850FCD600442A2F /* GifCollectionViewCell.swift */,
+			);
+			path = MainCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		76CD9A572851040300442A2F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A582851041E00442A2F /* GiphyAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		76CD9A5E2851197300442A2F /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A61285119A000442A2F /* DetailsViewController.swift */,
+				76CD9A6328511FC600442A2F /* DetailsViewModel.swift */,
+			);
+			path = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		9348667BFDED40B4DC5AE15B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567090594CDF5F4A2D7C4D03 /* libPods-MobimeoTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76CD9A422850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTask" */;
 			buildPhases = (
+				AD4E5AC30D67E2002D4F8190 /* [CP] Check Pods Manifest.lock */,
 				76CD9A142850F77000442A2F /* Sources */,
 				76CD9A152850F77000442A2F /* Frameworks */,
 				76CD9A162850F77000442A2F /* Resources */,
@@ -234,6 +326,7 @@
 				76CD9A282850F77100442A2F /* LaunchScreen.storyboard in Resources */,
 				76CD9A252850F77100442A2F /* Assets.xcassets in Resources */,
 				76CD9A232850F77000442A2F /* Main.storyboard in Resources */,
+				76CD9A522850FCC500442A2F /* GifCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +346,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD4E5AC30D67E2002D4F8190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobimeoTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76CD9A142850F77000442A2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76CD9A202850F77000442A2F /* ViewController.swift in Sources */,
+				76CD9A202850F77000442A2F /* MainViewController.swift in Sources */,
+				76CD9A542850FCD600442A2F /* GifCollectionViewCell.swift in Sources */,
+				76CD9A5D2851139700442A2F /* UINavigationControllerExtension.swift in Sources */,
 				76CD9A1C2850F77000442A2F /* AppDelegate.swift in Sources */,
+				76CD9A4F2850FC2F00442A2F /* GifInfo.swift in Sources */,
+				76CD9A592851041E00442A2F /* GiphyAPI.swift in Sources */,
 				76CD9A1E2850F77000442A2F /* SceneDelegate.swift in Sources */,
+				76CD9A6428511FC600442A2F /* DetailsViewModel.swift in Sources */,
+				76CD9A4C2850FA4A00442A2F /* MainViewModel.swift in Sources */,
+				76CD9A5B2851050C00442A2F /* Constants.swift in Sources */,
+				76CD9A62285119A000442A2F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +560,7 @@
 		};
 		76CD9A432850F77100442A2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D80E8E7B22FA4C0B0898FE /* Pods-MobimeoTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +589,7 @@
 		};
 		76CD9A442850F77100442A2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754D713940A892ED417AFB7A /* Pods-MobimeoTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
