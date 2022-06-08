@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76CD9A1C2850F77000442A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1B2850F77000442A2F /* AppDelegate.swift */; };
+		76CD9A1E2850F77000442A2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1D2850F77000442A2F /* SceneDelegate.swift */; };
+		76CD9A202850F77000442A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1F2850F77000442A2F /* ViewController.swift */; };
+		76CD9A232850F77000442A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A212850F77000442A2F /* Main.storyboard */; };
+		76CD9A252850F77100442A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A242850F77100442A2F /* Assets.xcassets */; };
+		76CD9A282850F77100442A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CD9A262850F77100442A2F /* LaunchScreen.storyboard */; };
+		76CD9A332850F77100442A2F /* MobimeoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A322850F77100442A2F /* MobimeoTaskTests.swift */; };
+		76CD9A3D2850F77100442A2F /* MobimeoTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A3C2850F77100442A2F /* MobimeoTaskUITests.swift */; };
+		76CD9A3F2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A3E2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76CD9A2F2850F77100442A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CD9A102850F77000442A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CD9A172850F77000442A2F;
+			remoteInfo = MobimeoTask;
+		};
+		76CD9A392850F77100442A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CD9A102850F77000442A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CD9A172850F77000442A2F;
+			remoteInfo = MobimeoTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76CD9A182850F77000442A2F /* MobimeoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobimeoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CD9A1B2850F77000442A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76CD9A1D2850F77000442A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76CD9A1F2850F77000442A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76CD9A222850F77000442A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76CD9A242850F77100442A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76CD9A272850F77100442A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76CD9A292850F77100442A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CD9A2E2850F77100442A2F /* MobimeoTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobimeoTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CD9A322850F77100442A2F /* MobimeoTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobimeoTaskTests.swift; sourceTree = "<group>"; };
+		76CD9A382850F77100442A2F /* MobimeoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobimeoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CD9A3C2850F77100442A2F /* MobimeoTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobimeoTaskUITests.swift; sourceTree = "<group>"; };
+		76CD9A3E2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobimeoTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76CD9A152850F77000442A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD9A2B2850F77100442A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD9A352850F77100442A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76CD9A0F2850F77000442A2F = {
+			isa = PBXGroup;
+			children = (
+				76CD9A1A2850F77000442A2F /* MobimeoTask */,
+				76CD9A312850F77100442A2F /* MobimeoTaskTests */,
+				76CD9A3B2850F77100442A2F /* MobimeoTaskUITests */,
+				76CD9A192850F77000442A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76CD9A192850F77000442A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A182850F77000442A2F /* MobimeoTask.app */,
+				76CD9A2E2850F77100442A2F /* MobimeoTaskTests.xctest */,
+				76CD9A382850F77100442A2F /* MobimeoTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76CD9A1A2850F77000442A2F /* MobimeoTask */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A1B2850F77000442A2F /* AppDelegate.swift */,
+				76CD9A1D2850F77000442A2F /* SceneDelegate.swift */,
+				76CD9A1F2850F77000442A2F /* ViewController.swift */,
+				76CD9A212850F77000442A2F /* Main.storyboard */,
+				76CD9A242850F77100442A2F /* Assets.xcassets */,
+				76CD9A262850F77100442A2F /* LaunchScreen.storyboard */,
+				76CD9A292850F77100442A2F /* Info.plist */,
+			);
+			path = MobimeoTask;
+			sourceTree = "<group>";
+		};
+		76CD9A312850F77100442A2F /* MobimeoTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A322850F77100442A2F /* MobimeoTaskTests.swift */,
+			);
+			path = MobimeoTaskTests;
+			sourceTree = "<group>";
+		};
+		76CD9A3B2850F77100442A2F /* MobimeoTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76CD9A3C2850F77100442A2F /* MobimeoTaskUITests.swift */,
+				76CD9A3E2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift */,
+			);
+			path = MobimeoTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76CD9A172850F77000442A2F /* MobimeoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CD9A422850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTask" */;
+			buildPhases = (
+				76CD9A142850F77000442A2F /* Sources */,
+				76CD9A152850F77000442A2F /* Frameworks */,
+				76CD9A162850F77000442A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobimeoTask;
+			productName = MobimeoTask;
+			productReference = 76CD9A182850F77000442A2F /* MobimeoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76CD9A2D2850F77100442A2F /* MobimeoTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CD9A452850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTaskTests" */;
+			buildPhases = (
+				76CD9A2A2850F77100442A2F /* Sources */,
+				76CD9A2B2850F77100442A2F /* Frameworks */,
+				76CD9A2C2850F77100442A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CD9A302850F77100442A2F /* PBXTargetDependency */,
+			);
+			name = MobimeoTaskTests;
+			productName = MobimeoTaskTests;
+			productReference = 76CD9A2E2850F77100442A2F /* MobimeoTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76CD9A372850F77100442A2F /* MobimeoTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CD9A482850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTaskUITests" */;
+			buildPhases = (
+				76CD9A342850F77100442A2F /* Sources */,
+				76CD9A352850F77100442A2F /* Frameworks */,
+				76CD9A362850F77100442A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CD9A3A2850F77100442A2F /* PBXTargetDependency */,
+			);
+			name = MobimeoTaskUITests;
+			productName = MobimeoTaskUITests;
+			productReference = 76CD9A382850F77100442A2F /* MobimeoTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76CD9A102850F77000442A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					76CD9A172850F77000442A2F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					76CD9A2D2850F77100442A2F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 76CD9A172850F77000442A2F;
+					};
+					76CD9A372850F77100442A2F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 76CD9A172850F77000442A2F;
+					};
+				};
+			};
+			buildConfigurationList = 76CD9A132850F77000442A2F /* Build configuration list for PBXProject "MobimeoTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76CD9A0F2850F77000442A2F;
+			productRefGroup = 76CD9A192850F77000442A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76CD9A172850F77000442A2F /* MobimeoTask */,
+				76CD9A2D2850F77100442A2F /* MobimeoTaskTests */,
+				76CD9A372850F77100442A2F /* MobimeoTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76CD9A162850F77000442A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD9A282850F77100442A2F /* LaunchScreen.storyboard in Resources */,
+				76CD9A252850F77100442A2F /* Assets.xcassets in Resources */,
+				76CD9A232850F77000442A2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD9A2C2850F77100442A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD9A362850F77100442A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76CD9A142850F77000442A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD9A202850F77000442A2F /* ViewController.swift in Sources */,
+				76CD9A1C2850F77000442A2F /* AppDelegate.swift in Sources */,
+				76CD9A1E2850F77000442A2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD9A2A2850F77100442A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD9A332850F77100442A2F /* MobimeoTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD9A342850F77100442A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CD9A3F2850F77100442A2F /* MobimeoTaskUITestsLaunchTests.swift in Sources */,
+				76CD9A3D2850F77100442A2F /* MobimeoTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76CD9A302850F77100442A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CD9A172850F77000442A2F /* MobimeoTask */;
+			targetProxy = 76CD9A2F2850F77100442A2F /* PBXContainerItemProxy */;
+		};
+		76CD9A3A2850F77100442A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CD9A172850F77000442A2F /* MobimeoTask */;
+			targetProxy = 76CD9A392850F77100442A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76CD9A212850F77000442A2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76CD9A222850F77000442A2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76CD9A262850F77100442A2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76CD9A272850F77100442A2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76CD9A402850F77100442A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76CD9A412850F77100442A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76CD9A432850F77100442A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVGWYGL436;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobimeoTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.org.MobimeoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76CD9A442850F77100442A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVGWYGL436;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobimeoTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.org.MobimeoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76CD9A462850F77100442A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVGWYGL436;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.org.MobimeoTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobimeoTask.app/MobimeoTask";
+			};
+			name = Debug;
+		};
+		76CD9A472850F77100442A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVGWYGL436;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.org.MobimeoTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobimeoTask.app/MobimeoTask";
+			};
+			name = Release;
+		};
+		76CD9A492850F77100442A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVGWYGL436;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.org.MobimeoTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobimeoTask;
+			};
+			name = Debug;
+		};
+		76CD9A4A2850F77100442A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVGWYGL436;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.org.MobimeoTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobimeoTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76CD9A132850F77000442A2F /* Build configuration list for PBXProject "MobimeoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD9A402850F77100442A2F /* Debug */,
+				76CD9A412850F77100442A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CD9A422850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD9A432850F77100442A2F /* Debug */,
+				76CD9A442850F77100442A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CD9A452850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD9A462850F77100442A2F /* Debug */,
+				76CD9A472850F77100442A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CD9A482850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD9A492850F77100442A2F /* Debug */,
+				76CD9A4A2850F77100442A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76CD9A102850F77000442A2F /* Project object */;
+}
