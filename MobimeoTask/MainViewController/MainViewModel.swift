@@ -18,13 +18,13 @@ class MainViewModel {
         self.apiClient = apiClient
     }
     
-    func requestTrendingGifs(completion: @escaping () -> Void) {
+    func requestTrendingGifs(completion: @escaping ([GifInfo]?) -> Void) {
         apiClient.requestTrendingGifs(offset: pageNo * offsetIncrement) { results in
             if let results = results {
                 self.gifArray.append(contentsOf: results)
                 self.pageNo += 1
             }
-            completion()
+            completion(results)
         }
     }
 }

@@ -21,7 +21,7 @@ class MainViewController: UIViewController {
         gifCollectionView.register(UINib(nibName: "GifCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "GifCollectionViewCell")
         
         activityIndicator.startAnimating()
-        viewModel.requestTrendingGifs() {
+        viewModel.requestTrendingGifs() { _ in
             DispatchQueue.main.async {
                 self.activityIndicator.stopAnimating()
                 self.gifCollectionView.reloadData()
@@ -51,7 +51,7 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if indexPath.row == viewModel.gifArray.count - 1 {
-            viewModel.requestTrendingGifs() {
+            viewModel.requestTrendingGifs() { _ in
                 DispatchQueue.main.async {
                     self.gifCollectionView.reloadData()
                 }

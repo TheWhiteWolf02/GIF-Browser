@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		177D0E9F45FE4A7D00CACAAB /* libPods-MobimeoTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 567090594CDF5F4A2D7C4D03 /* libPods-MobimeoTask.a */; };
+		7668FD2F2851FED700D9DF7B /* MockClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7668FD2E2851FED700D9DF7B /* MockClasses.swift */; };
 		76CD9A1C2850F77000442A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1B2850F77000442A2F /* AppDelegate.swift */; };
 		76CD9A1E2850F77000442A2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1D2850F77000442A2F /* SceneDelegate.swift */; };
 		76CD9A202850F77000442A2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A1F2850F77000442A2F /* MainViewController.swift */; };
@@ -26,6 +27,7 @@
 		76CD9A5D2851139700442A2F /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A5C2851139700442A2F /* UINavigationControllerExtension.swift */; };
 		76CD9A62285119A000442A2F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A61285119A000442A2F /* DetailsViewController.swift */; };
 		76CD9A6428511FC600442A2F /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD9A6328511FC600442A2F /* DetailsViewModel.swift */; };
+		9A2080509EB49298325B0E3B /* libPods-MobimeoTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465EB6A9E1CF513B7025A041 /* libPods-MobimeoTaskTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EEFAD925F418EDC30276EB3 /* Pods-MobimeoTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobimeoTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-MobimeoTaskTests/Pods-MobimeoTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		465EB6A9E1CF513B7025A041 /* libPods-MobimeoTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobimeoTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567090594CDF5F4A2D7C4D03 /* libPods-MobimeoTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobimeoTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D80E8E7B22FA4C0B0898FE /* Pods-MobimeoTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobimeoTask.debug.xcconfig"; path = "Target Support Files/Pods-MobimeoTask/Pods-MobimeoTask.debug.xcconfig"; sourceTree = "<group>"; };
 		754D713940A892ED417AFB7A /* Pods-MobimeoTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobimeoTask.release.xcconfig"; path = "Target Support Files/Pods-MobimeoTask/Pods-MobimeoTask.release.xcconfig"; sourceTree = "<group>"; };
+		7668FD2E2851FED700D9DF7B /* MockClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClasses.swift; sourceTree = "<group>"; };
 		76CD9A182850F77000442A2F /* MobimeoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobimeoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CD9A1B2850F77000442A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76CD9A1D2850F77000442A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 		76CD9A5C2851139700442A2F /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		76CD9A61285119A000442A2F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		76CD9A6328511FC600442A2F /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		94F23193EF7BEE33A4F44638 /* Pods-MobimeoTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobimeoTaskTests.release.xcconfig"; path = "Target Support Files/Pods-MobimeoTaskTests/Pods-MobimeoTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2080509EB49298325B0E3B /* libPods-MobimeoTaskTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +111,8 @@
 			children = (
 				67D80E8E7B22FA4C0B0898FE /* Pods-MobimeoTask.debug.xcconfig */,
 				754D713940A892ED417AFB7A /* Pods-MobimeoTask.release.xcconfig */,
+				0EEFAD925F418EDC30276EB3 /* Pods-MobimeoTaskTests.debug.xcconfig */,
+				94F23193EF7BEE33A4F44638 /* Pods-MobimeoTaskTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				76CD9A322850F77100442A2F /* MobimeoTaskTests.swift */,
+				7668FD2E2851FED700D9DF7B /* MockClasses.swift */,
 			);
 			path = MobimeoTaskTests;
 			sourceTree = "<group>";
@@ -214,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				567090594CDF5F4A2D7C4D03 /* libPods-MobimeoTask.a */,
+				465EB6A9E1CF513B7025A041 /* libPods-MobimeoTaskTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76CD9A452850F77100442A2F /* Build configuration list for PBXNativeTarget "MobimeoTaskTests" */;
 			buildPhases = (
+				2DB05F2CE565BFA72B0B067C /* [CP] Check Pods Manifest.lock */,
 				76CD9A2A2850F77100442A2F /* Sources */,
 				76CD9A2B2850F77100442A2F /* Frameworks */,
 				76CD9A2C2850F77100442A2F /* Resources */,
@@ -347,6 +359,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2DB05F2CE565BFA72B0B067C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobimeoTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AD4E5AC30D67E2002D4F8190 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7668FD2F2851FED700D9DF7B /* MockClasses.swift in Sources */,
 				76CD9A332850F77100442A2F /* MobimeoTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,6 +653,7 @@
 		};
 		76CD9A462850F77100442A2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEFAD925F418EDC30276EB3 /* Pods-MobimeoTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -643,6 +679,7 @@
 		};
 		76CD9A472850F77100442A2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F23193EF7BEE33A4F44638 /* Pods-MobimeoTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

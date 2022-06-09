@@ -17,7 +17,7 @@ class DetailsViewModel {
         self.apiClient = apiClient
     }
     
-    func fetchGifDetails(completion: @escaping (GifInfo?) -> Void) {
+    func requestGifDetails(completion: @escaping (GifInfo?) -> Void) {
         apiClient.requestGifDetails(id: GifID) { result in
             self.gifDetails = result
             completion(result)

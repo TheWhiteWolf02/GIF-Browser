@@ -1,0 +1,6 @@
+module Pods_MobimeoTaskTests {
+  umbrella header "Pods-MobimeoTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

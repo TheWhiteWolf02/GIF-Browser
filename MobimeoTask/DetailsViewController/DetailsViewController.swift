@@ -32,7 +32,7 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         
         activityIndicator.startAnimating()
-        viewModel.fetchGifDetails() { result in
+        viewModel.requestGifDetails() { result in
             DispatchQueue.main.async {
                 self.updateInfo(gifResult: result)
             }
